@@ -1,0 +1,156 @@
+#l-portfolio-page
+  .__grey-bg
+    .grid-container.__no-padding
+      .b-top.grid-x
+        .small-12.cell.small-text-center.large-text-right
+          section
+            h1 Портфолио
+            nav
+              ul.no-bullet.text-center.medium-text-left
+                li
+                  a.active href="#{js_void}" Проекты
+                li
+                  a href="#{js_void}" Реализация
+
+    .grid-container.__no-padding
+      .b-portfolio-items
+        .grid-x
+          .medium-3.cell
+            .card
+              .card-section
+                = image_tag 'portfolio/size-1.jpg'
+                = link_to site_project_path, class: 'info' do
+                  .title
+                    <span> Дизайн </span>
+                    | Интерьера КВАРТИРЫ
+                  .more.__d
+                    .wrap Подробнее
+                  .attributes
+                    .style Стиль:
+                    .budget Бюджет:
+            .card
+              .card-section
+                = image_tag 'portfolio/size-4.jpg'
+                = link_to site_project_path, class: 'info' do
+                  .title
+                    <span> Дизайн </span>
+                    | Интерьера КВАРТИРЫ
+                  .more.__d
+                    .wrap Подробнее
+                  .attributes
+                    .style Стиль:
+                    .budget Бюджет:
+          .medium-3.cell
+            .card
+              .card-section
+                = image_tag 'portfolio/size-2.jpg'
+                = link_to site_project_path, class: 'info' do
+                  .title
+                    <span> Дизайн </span>
+                    | Интерьера КВАРТИРЫ
+                  .more.__d
+                    .wrap Подробнее
+                  .attributes
+                    .style Стиль:
+                    .budget Бюджет:
+            .card
+              .card-section
+                = image_tag 'portfolio/size-5.jpg'
+                = link_to site_project_path, class: 'info' do
+                  .title
+                    <span> Дизайн </span>
+                    | Интерьера КВАРТИРЫ
+                  .more.__d
+                    .wrap Подробнее
+                  .attributes
+                    .style Стиль:
+                    .budget Бюджет:
+          .medium-6.cell
+            .card
+              .card-section
+                = image_tag 'portfolio/size-3.jpg'
+                = link_to site_project_path, class: 'info' do
+                  .title
+                    <span> Дизайн </span>
+                    | Интерьера КВАРТИРЫ
+                  .more.__d
+                    .wrap Подробнее
+                  .attributes
+                    .style Стиль:
+                    .budget Бюджет:
+
+        // Reverse ordering
+        .grid-x.__reverse
+          .medium-6.cell
+            .card
+              .card-section
+                = image_tag 'portfolio/size-3.jpg'
+                = link_to site_project_path, class: 'info' do
+                  .title
+                    <span> Дизайн </span>
+                    | Интерьера КВАРТИРЫ
+                  .more.__d
+                    .wrap Подробнее
+                  .attributes
+                    .style Стиль:
+                    .budget Бюджет:
+          .medium-3.cell
+            .card
+              .card-section
+                = image_tag 'portfolio/size-2.jpg'
+                = link_to site_project_path, class: 'info' do
+                  .title
+                    <span> Дизайн </span>
+                    | Интерьера КВАРТИРЫ
+                  .more.__d
+                    .wrap Подробнее
+                  .attributes
+                    .style Стиль:
+                    .budget Бюджет:
+            .card
+              .card-section
+                = image_tag 'portfolio/size-5.jpg'
+                = link_to site_project_path, class: 'info' do
+                  .title
+                    <span> Дизайн </span>
+                    | Интерьера КВАРТИРЫ
+                  .more.__d
+                    .wrap Подробнее
+                  .attributes
+                    .style Стиль:
+                    .budget Бюджет:
+          .medium-3.cell
+            .card
+              .card-section
+                = image_tag 'portfolio/size-1.jpg'
+                = link_to site_project_path, class: 'info' do
+                  .title
+                    <span> Дизайн </span>
+                    | Интерьера КВАРТИРЫ
+                  .more.__d
+                    .wrap Подробнее
+                  .attributes
+                    .style Стиль:
+                    .budget Бюджет:
+            .card
+              .card-section
+                = image_tag 'portfolio/size-4.jpg'
+                = link_to site_project_path, class: 'info' do
+                  .title
+                    <span> Дизайн </span>
+                    | Интерьера КВАРТИРЫ
+                  .more.__d
+                    .wrap Подробнее
+                  .attributes
+                    .style Стиль:
+                    .budget Бюджет:
+
+  .__black-bg
+    .grid-container.b-order-buttons
+      .grid-x.align-center
+        .small-8.medium-offset-1.medium-3.cell
+          a.order-design href="#{js_void}" data-toggle="modal-order"
+        .small-8.medium-offset-1.medium-3.cell
+          a.order-repair href="#{js_void}" data-toggle="modal-order"
+        .small-8.medium-offset-1.medium-3.cell
+          a.order-materials href="#{js_void}"

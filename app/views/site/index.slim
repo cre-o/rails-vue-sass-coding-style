@@ -1,0 +1,76 @@
+#l-home-page
+  .b-slider
+    #vue-home-slider
+  .__black-bg
+    .grid-container.b-order-buttons
+      .grid-x.align-center
+        .small-8.large-offset-1.medium-4.large-3.cell
+          a.order-design href="#{js_void}" data-toggle="modal-order"
+        .small-8.large-offset-1.medium-4.large-3.cell
+          a.order-repair href="#{js_void}" data-toggle="modal-order"
+        .small-8.large-offset-1.medium-4.large-3.cell
+          a.order-materials href="#{js_void}"
+
+    .grid-container.b-about
+      .grid-x
+        .medium-offset-1.medium-5.cell
+          section
+            h3.__d <span>Студия <span class="__color">дизайна</span> </span>
+            p
+              | Мы точно знаем, что сэкономим вам более 300 000 руб. на ремонте квартиры в 100 м.кв., сохраним Ваше свободное время и более миллиона нервных клеток.  Мы считали! Здесь нет никаких финансовых хитростей, только опыт и профессионализм. Хотите узнать как экономить ресурсы и деньги во время ремонта?
+              a href="#{js_void}" Получите наш расчет на почту!
+
+        .medium-6.cell
+          .b-calc-form
+            form
+              input type="text" placeholder="Ваше имя*"
+              input type="text" placeholder="Ваш EMAIL*"
+              input type="text" placeholder="Ваш ?*"
+              div.__d
+                .wrap
+                  input type="submit" value="Получить расчет"
+
+  // >> Portfolio sections
+  .__white-bg
+    .b-portfolio.grid-container.__no-padding
+      .grid-x
+        .small-12.cell.b-big-slider
+          section
+            h1 Портфолио
+            #vue-home-portfolio-slider
+
+  .__black-bg
+    .b-portfolio.grid-container.__no-padding
+      .grid-x
+        .small-12.cell.b-small-slider
+          #vue-home-works-slider
+  // << Portfolio sections
+
+  // >> Questions and answers
+  .__grey-bg
+    .b-questions-answers.grid-container.__no-padding
+      .grid-x
+        .small-12.cell.text-right
+          section
+            h2
+              | Отвечаем
+              .subheader на Вопросы
+      .grid-x.grid-margin-x
+        .small-6.medium-offset-1.medium-5.cell
+          .b-question-header
+            | Вопрос:
+        .small-6.medium-5.cell
+          .b-answer-header
+            | Ответ:
+        .small-12.medium-offset-1.medium-10.cell
+          #vue-questions-ansers
+      .grid-x.align-center
+        .medium-6.cell.b-any-questions
+          | <span>посмотрите</span>, <br>
+            может ответ на Ваш вопрос уже есть в этом блоке
+      .grid-x.align-center
+        .medium-2.cell
+          a.ask-button href="#{js_void}"
+
+
+  // << Questions and answers

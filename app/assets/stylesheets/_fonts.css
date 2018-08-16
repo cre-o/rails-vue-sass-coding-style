@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'comfortaaregular';
+    src: url('/assets/comfortaa-regular.eot');
+    src: url('/assets/comfortaa-regular.eot?#iefix') format('embedded-opentype'),
+         url('/assets/comfortaa-regular.woff2') format('woff2'),
+         url('/assets/comfortaa-regular.woff') format('woff'),
+         url('/assets/comfortaa-regular.ttf') format('truetype'),
+         url('/assets/comfortaa-regular.svg#comfortaaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'comfortaabold';
+    src: url('/assets/comfortaa-bold.eot');
+    src: url('/assets/comfortaa-bold.eot?#iefix') format('embedded-opentype'),
+         url('/assets/comfortaa-bold.woff2') format('woff2'),
+         url('/assets/comfortaa-bold.woff') format('woff'),
+         url('/assets/comfortaa-bold.ttf') format('truetype'),
+         url('/assets/comfortaa-bold.svg#comfortaabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'juralight';
+    src: url('/assets/jura-light.eot');
+    src: url('/assets/jura-light.eot?#iefix') format('embedded-opentype'),
+         url('/assets/jura-light.woff2') format('woff2'),
+         url('/assets/jura-light.woff') format('woff'),
+         url('/assets/jura-light.ttf') format('truetype'),
+         url('/assets/jura-light.svg#juralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'comfortaalight';
+    src: url('/assets/comfortaa-light.eot');
+    src: url('/assets/comfortaa-light.eot?#iefix') format('embedded-opentype'),
+         url('/assets/comfortaa-light.woff2') format('woff2'),
+         url('/assets/comfortaa-light.woff') format('woff'),
+         url('/assets/comfortaa-light.ttf') format('truetype'),
+         url('/assets/comfortaa-light.svg#comfortaalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'jurabook';
+    src: url('/assets/jura-regular.eot');
+    src: url('/assets/jura-regular.eot?#iefix') format('embedded-opentype'),
+         url('/assets/jura-regular.woff2') format('woff2'),
+         url('/assets/jura-regular.woff') format('woff'),
+         url('/assets/jura-regular.ttf') format('truetype'),
+         url('/assets/jura-regular.svg#jurabook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'jurademibold';
+    src: url('/assets/jura-demibold.eot');
+    src: url('/assets/jura-demibold.eot?#iefix') format('embedded-opentype'),
+         url('/assets/jura-demibold.woff2') format('woff2'),
+         url('/assets/jura-demibold.woff') format('woff'),
+         url('/assets/jura-demibold.ttf') format('truetype'),
+         url('/assets/jura-demibold.svg#jurademibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'juramedium';
+    src: url('/assets/jura-medium.eot');
+    src: url('/assets/jura-medium.eot?#iefix') format('embedded-opentype'),
+         url('/assets/jura-medium.woff2') format('woff2'),
+         url('/assets/jura-medium.woff') format('woff'),
+         url('/assets/jura-medium.ttf') format('truetype'),
+         url('/assets/jura-medium.svg#juramedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

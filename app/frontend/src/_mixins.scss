@@ -1,0 +1,33 @@
+@mixin text-glow {
+  background-image: none;
+  text-shadow: 1px 1px 9px #00ccff;
+  -webkit-text-fill-color: #00ccff;
+}
+
+@mixin gradient-text {
+  color: #939598;
+  background-image: -webkit-linear-gradient(bottom, #838383, #bfbfbf);
+  background-image: -moz-linear-gradient(bottom, #838383, #bfbfbf);
+  background-image: -o-linear-gradient(bottom, #838383, #bfbfbf);
+  background-image: -ms-linear-gradient(bottom, #838383, #bfbfbf);
+  background-image: linear-gradient(to top, #838383, #bfbfbf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.6), 0 0 0px rgba(255, 255, 255, 0.6);
+}
+
+@mixin ask-button {
+  a.ask-button, input.ask-button {
+    background: url('ask-question-button_267x57.png') no-repeat;
+    width: 267px;
+    height: 57px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    &:hover {
+      background: url('ask-question-button-active_267x57.png') no-repeat;
+    }
+  }
+}

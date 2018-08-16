@@ -1,0 +1,46 @@
+header.b-header
+  .b-contacts.grid-container
+    .grid-x.grid-margin-x
+      .medium-4.cell.hide-for-small-only
+        i.icon.home
+        | Благовещенск, пер. Ромненский, 14
+      .small-10.medium-4.cell.text-center
+        .phones
+          i.icon.phone
+          a href="tel:+74162771772" +7 (4162) 771-772
+          span
+            | /
+          a href="tel:+74162771773" +7 (4162) 771-773
+      .small-3.cell.hide-for-small-only
+        a href="#{js_void}"
+          i.icon.instagram
+          | Art_house_amur
+
+  .b-main-nav
+    .grid-container
+      .grid-x.grid-margin-x
+        .small-8.small-offset-3.medium-3.medium-offset-0.cell
+          .b-logo
+            = link_to root_path do
+              = image_tag 'logo_179x46.png', width: 179, heught: 46
+        .small-12.medium-8.cell
+          #v-mobile-nav
+            a.mobile-nav.show-for-small-only href="#{js_void}" @click="toggleNavigation"
+
+          nav#main-nav.b-nav.hide-for-small-only
+            ul.no-bullet
+              li
+                = active_link_to 'Главная', root_path, active: :exclusive
+              li
+                = active_link_to 'Портфолио', site_portfolio_path
+              li
+                = active_link_to 'О нас', '/site/about'
+              li
+                = active_link_to 'Услуги', '/site/services'
+              li
+                = active_link_to 'Блог', '/site/blog'
+              li
+                = active_link_to 'Контакты', '/site/contacts'
+
+        .small-4.medium-2.cell
+          a.catalog-button href="#"

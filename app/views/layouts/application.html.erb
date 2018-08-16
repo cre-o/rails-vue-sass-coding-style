@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru-Ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title><%= content_for?(:title) ? yield(:title) : "Arthouse" %></title>
+
+    <%= stylesheet_link_tag    "application" %>
+    <%= stylesheet_pack_tag    "application" %>
+    <%= javascript_pack_tag    "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+
+    <%= render partial: 'site/header'  %>
+    <%= yield %>
+    <%= render partial: 'site/footer'  %>
+
+    <%= javascript_include_tag "application" %>
+    <%= javascript_pack_tag    "vue-app" %>
+  </body>
+</html>

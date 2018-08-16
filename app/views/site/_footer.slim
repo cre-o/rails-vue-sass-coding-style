@@ -1,0 +1,105 @@
+footer.b-footer
+  .__white-bg
+    .b-we-are-on-instagram.grid-container
+      .grid-x.align-center
+        .medium-8.large-4.cell
+          h3.__d
+            span Мы в instagram
+
+      .grid-x.align-center
+        .medium-9.cell.b-instagram-photos
+          #v-instagram
+
+    .b-search.grid-container
+      .grid-x.align-center
+        .medium-3.cell
+          .cell
+            .b-logo
+              = image_tag 'logo-bottom_249x46.png', width: 249, height: 46
+          .cell
+            .b-results-box
+              i.icon.search
+
+  .grid-container
+    .grid-x.margin-x
+      .small-11.small-offset-1.medium-offset-0.medium-2.cell
+        ul.no-bullet
+          li
+            a href="#{js_void}" О студии
+          li
+            = active_link_to 'История', '/'
+          li
+            a href="#{js_void}" Команда
+          li
+            a href="#{js_void}" Блог
+          li
+            a href="#{js_void}" Акции
+          li
+            a href="#{js_void}" Вакансии
+      .small-11.small-offset-1.medium-offset-0.medium-2.cell
+        ul.no-bullet
+          li
+            a href="#{js_void}" Услуги
+          li
+            a href="#{js_void}" Прайс
+          li
+            a href="#{js_void}" Дизайн-проекты
+          li
+            a href="#{js_void}"
+              ' Ремонты
+              br
+              | и отделка
+      .small-11.small-offset-1.medium-offset-0.medium-2.cell
+        ul.no-bullet
+          li
+            a href="#{js_void}" Проекты
+          li
+            a href="#{js_void}" Жилые
+          li
+            a href="#{js_void}" Коммерческие
+      .small-11.small-offset-1.medium-offset-0.medium-2.cell
+        ul.no-bullet
+          li
+            a href="#{js_void}" Контакты
+          li
+            a href="#{js_void}" Реквизиты
+          li
+            a href="#{js_void}" Партнёрам
+
+      .small-offset-1.small-11.medium-4.medium-offset-0.cell
+        .b-contacts
+          .address
+            i.icon.home
+            | Благовещенск, пер. Ромненский, 14
+          .phones
+            i.icon.phone
+            | +7 (4162) 771-772  /  +7 (4162) 771-773
+          .instagram
+            i.icon.instagram
+            | Art_house_amur
+
+  .__grey-bg
+    .grid-container
+      .grid-x.align-center
+        .cell.b-copy
+          | ООО «АРТHOUSE»
+        .small-1.cell
+          #v-to-top
+
+/ Modal windows
+#modal-order.reveal data-close-on-click="true" data-reveal=""
+  .b-form
+    form
+      input type="text" placeholder="Ваше имя*"
+      input type="text" placeholder="Ваш телефон*"
+      input type="text" placeholder="Ваша почта*"
+      .input-row
+        input#agreed type="checkbox" value="0"
+        label for="agreed" Соглашаюсь с правилами обработки персональных данных
+      div.__d
+        .wrap
+          input type="submit" value="заказать"
+
+  button.close-button aria-label=("Close reveal") data-close="" type="button"
+    span aria-hidden="true"  &times;
+
